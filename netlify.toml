@@ -4,4 +4,4 @@
   publish = "build" # location of our frontend build artifacts
 
 [build.environment]
-  GO_IMPORT_PATH = github.com/xdesai/netlify_test
+  GO_IMPORT_PATH = "github.com/xdesai/netlify_test"
