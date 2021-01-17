@@ -1,0 +1,7 @@
+[build]
+  command = "make" # Command to create the serverless functions and our frontend
+  functions = "functions_build" # Location of our serverless function artifacts
+  publish = "build" # location of our frontend build artifacts
+
+[build.environment]
+  GO_IMPORT_PATH = github.com/xdesai/netlify_test
